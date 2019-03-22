@@ -15,7 +15,7 @@ import { QuoteInfoComponent } from './components/quote-info/quote-info.component
     BrowserModule,
     HttpClientModule
   ],
-  providers: [AppComponent, QuoteService],
+  providers: [QuoteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
