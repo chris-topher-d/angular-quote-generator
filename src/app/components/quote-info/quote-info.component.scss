@@ -1,0 +1,58 @@
+.quote-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    box-sizing: border-box;
+
+    .quote {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+
+        .words {
+            padding: 10px 30px;
+            text-align: center;
+        }
+          
+        .fa-quote-right {
+            align-self: flex-end;
+        }
+    }
+
+    .author {
+        padding: 25px 0;
+        font-size: 15px;
+        font-style: italic;
+    }
+  }  
+
+  .buttons {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background: #fff;
+        color: #0099ff;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-family: Helvetica, sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        margin: 0 5px;
+    
+        &:hover {
+            background: #0099ff;
+            color: #fff;
+        }
+    }
+  }
+  
