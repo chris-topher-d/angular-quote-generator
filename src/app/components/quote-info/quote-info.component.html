@@ -1,0 +1,12 @@
+<div class='quote-info'>
+  <div class='quote'>
+    <i class="fas fa-quote-left"></i>
+      <p class='words'>{{ quoteInfo.quote !== undefined ? quoteInfo.quote : '...loading...' }}</p>
+    <i class="fas fa-quote-right"></i>
+  </div>
+  <p class='author'>{{ quoteInfo.author !== undefined ? quoteInfo.author : null }}</p>
+</div>
+<div class='buttons'>
+  <button class='submit' (click)="getQuote()">Get Quote</button>
+  <button class='tweet' (click)="tweetQuote()"><i class="fab fa-twitter"></i></button>
+</div>
